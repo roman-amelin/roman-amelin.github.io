@@ -1,0 +1,281 @@
+
+/* md */
+@media (min-width: 1400px) and (max-width: 1500px) {
+	
+
+}
+
+
+/* md */
+@media (min-width: 1200px) { 
+
+
+	.container {
+		max-width: 1220px;
+	}
+
+}
+
+
+/* md */
+@media (min-width: 1200px) and (max-width: 1300px) { 
+
+
+}
+
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.site-main-menu ul li a{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.site-main-menu ul li:first-child a {
+		padding-left: 15px;
+	}
+
+}
+
+/* md */
+@media (max-width: 991px) {
+
+
+	.mobaile-menu {
+		display: block;
+	}
+	.desktop-menu {
+		display: none;
+	}
+	.site-main-menu ul li a{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.site-main-menu ul li:first-child a {
+		padding-left: 15px;
+	}	
+	.navbar-toggler-icon {
+		width: 40px;
+		height: inherit;
+	}
+	.navbar-toggler {
+		padding: 0;
+	}
+	.health-slider .slick-arrow {
+		top: initial;
+		bottom: -30px;
+		right: 50%;
+	}
+	.health-slider .fa-sort-up {
+		margin-bottom: 0;
+	}
+	.health-slider .fa-sort-down {
+		margin-right: 0;
+	}
+	.health-slider .slick-arrow:before {
+		display: none;
+	}
+	.health-slider .fa-sort-down.slick-arrow {
+		margin-left: 30px;
+	}
+	.health-slider .fa-sort-up.slick-arrow:after {
+		content: "";
+		position: absolute;
+		border-top: 12px solid transparent;
+		border-left: 20px solid #557dde;
+		border-bottom: 12px solid transparent;
+		left: 30px;
+	}
+	.health-slider .fa-sort-down.slick-arrow:after {
+		content: "";
+		position: absolute;
+		border-top: 12px solid transparent;
+		border-right: 20px solid #557dde;
+		border-bottom: 12px solid transparent;
+	}
+	.health-slider .fa-sort-down.slick-arrow:hover:after{
+		border-right: 20px solid #fff;
+	}
+	.health-slider .fa-sort-up.slick-arrow:hover:after {
+		border-left: 20px solid #fff;
+	}	
+	.health-section .slider-content {
+		max-width: 200px;
+	}
+	.about-thumb-content,
+	.about-text {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.catagory-content ul li{
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;		
+	}
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.catagory-content ul li {
+	    -ms-flex: 0 0 25%;
+	    flex: 0 0 25%;
+	    max-width: 25%;
+	}
+}
+
+/* sm */
+@media (max-width: 767px) {
+	.hr-social-icons-inner {
+		display: none;
+	}
+	.hero-area-main-content-blk-wrp {
+		width: initial;
+	}
+	.hero-area-inner-all {
+		justify-content: center;
+		text-align: center;
+	}
+	.hero-social-icons-list {
+	    min-width: initial;
+	}	
+	.about-text {
+		display: inline-block;
+	}
+	.about-content {
+		text-align: center;
+	}
+	.about-text ul,
+	.about-text h2 {
+		text-align: left;
+	}
+	.about-text .button {
+		margin-left: 0;
+	}
+	.hero-main-content-inner h1 {
+		font-size: 34px;
+	}
+	.hero-main-content-inner p {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.hero-area-main-content-blk {
+		height: 600px;
+	}
+	.hero-area-main-content-blk-wrp::after {
+		height: 80%;
+	}
+	.cta-content .shap-border::before { 
+		width: 320px;
+	}
+	.cta-content .shap-border::after {
+		width: 250px;
+	}
+	.health-section .slider-content,
+	.health-section:before {
+		display: none !important;
+	}
+	.health-section .section-title {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.health-section .button {
+		text-align: center;
+	}
+	.section-title h1 {
+		font-size: 30px;
+	}
+	.health-content.dextop-view {
+		display: none !important;
+	}
+	.health-slider-mobaile {
+		display: block;
+	}
+	.health-section .button {
+		margin-top: 70px;
+	}
+	.about-thumb-content {
+		margin-top: 30px;
+	}
+}
+
+/* xs Portrait */
+@media (max-width: 575px) { 
+	
+	.cta-content {
+		margin-left: 30px;
+		padding: 100px 0;
+	}
+	.cta-content {
+		font-size: 16px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.cta-content .cta-text h1 {
+		font-size: 24px;
+	}
+	.section-title h1,
+	.contact-section .contact h3 {
+		font-size: 22px;
+	}
+	.contact-section .contact {
+		font-size: 18px;
+	}
+	.catagory-content h2 {
+		font-size: 22px;
+	}
+	.cta-content .site-main-btn {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.about-text {
+		font-size: 14px;
+	}
+	.header-area {
+		margin-bottom: 0;
+	}
+	.hero-area-main-content-blk-wrp {
+		height: 550px;
+	}
+	.hero-main-content-inner h1 {
+		font-size: 24px;
+	}
+	.hero-main-content-inner p {
+		font-size: 16px;
+	}
+	.catagory-section .section-title h1 {
+		font-size: 20px;
+	}
+	.section {
+		overflow: hidden;
+	}
+}
+
+/* xs Portrait */
+@media (max-width: 475px) {
+
+	.catagory-content ul li {
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+	.site-main-btn {
+		font-size: 16px;
+		padding: 7px 20px;
+	}
+	.cta-content .cta-text ul li {
+		display: block;
+		margin-right: 0;
+		padding-right: 0;
+		text-align: left;
+	}
+	.cta-content .cta-text ul li::after {
+		display: none;
+	}
+	.about-text ul {
+		margin-left: 0;
+	}
+}
+
+
